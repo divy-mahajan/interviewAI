@@ -72,7 +72,6 @@ async function loginUserController(req,res){
 
     const user = await userModel.findOne({ email })
 
-    console.log(user);
 
     if(!user){ 
         return res.status(400).json ({
