@@ -10,7 +10,7 @@ const Home = () => {
             </div>
             <div className="right">
             <div className="input-group">
-                <p>Resume <small className='highlight'></small>(Use Resume and self description together for best results)</p>
+                <p>Resume <small className="highlight">(Use Resume and self description together for best results)</small></p>
                 <label className='file-label' htmlFor='resume'>Upload Resume</label>
                 <input hidden type="file" name="resume" id="resume" accept=".pdf" />
             </div>
