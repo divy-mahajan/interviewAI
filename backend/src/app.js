@@ -14,7 +14,7 @@ app.use(cookieParser())
 
 const allowedOrigins = [
     "http://localhost:5173",
-    "https://interviewai-drtm.onrender.com"
+    "https://interview-ai-phi-rust.vercel.app"
 ];
 app.use(cors({
     origin: allowedOrigins,
