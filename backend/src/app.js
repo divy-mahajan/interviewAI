@@ -10,8 +10,14 @@ const app = express();
 
 app.use(express.json());
 app.use(cookieParser())
+
+
+const allowedOrigins = [
+    "http://localhost:5173",
+    "https://interviewai-drtm.onrender.com"
+];
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: allowedOrigins,
     credentials: true
 }))
 
