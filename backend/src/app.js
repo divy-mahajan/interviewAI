@@ -14,7 +14,8 @@ app.use(cookieParser())
 
 const allowedOrigins = [
     "http://localhost:5173",
-    "https://interview-ai-phi-rust.vercel.app"
+    "https://interview-ai-phi-rust.vercel.app",
+    "https://interview-ai-divy17.vercel.app"
 ];
 app.use(cors({
     origin: allowedOrigins,
