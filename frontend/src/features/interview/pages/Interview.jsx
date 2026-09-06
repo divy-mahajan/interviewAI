@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '../style/interview.scss'
 import { useInterview } from '../hooks/useinterview.js'
 import { useNavigate, useParams } from 'react-router'
+import Navbar from '../../../components/Navbar.jsx'
 
 
 
@@ -81,8 +82,10 @@ const Interview = () => {
 
 
     return (
-        <div className='interview-page'>
-            <div className='interview-layout'>
+        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: '#0d1117' }}>
+            <Navbar />
+            <div className='interview-page' style={{ flex: 1, minHeight: 'auto' }}>
+                <div className='interview-layout'>
 
                 {/* ── Left Nav ── */}
                 <nav className='interview-nav'>
@@ -185,6 +188,7 @@ const Interview = () => {
 
                 </aside>
             </div>
+        </div>
         </div>
     )
 }

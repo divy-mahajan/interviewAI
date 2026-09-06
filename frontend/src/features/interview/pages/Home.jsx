@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react'
 import "../style/home.scss"
 import { useInterview } from '../hooks/useinterview.js'
 import { useNavigate } from 'react-router'
+import Navbar from '../../../components/Navbar.jsx'
 
 const Home = () => {
 
@@ -56,7 +57,9 @@ const Home = () => {
     }
 
     return (
-        <div className='home-page'>
+        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: '#0d1117' }}>
+            <Navbar />
+            <div className='home-page' style={{ flex: 1, minHeight: 'auto', justifyContent: 'flex-start', paddingTop: '2.5rem' }}>
 
             {/* Page Header */}
             <header className='page-header'>
@@ -199,6 +202,7 @@ const Home = () => {
                 <a href='#'>Terms of Service</a>
                 <a href='#'>Help Center</a>
             </footer>
+            </div>
         </div>
     )
 }
