@@ -1,0 +1,184 @@
+{
+  "benchmarkSummary": {
+    "totalResumesEvaluated": 15,
+    "totalGroundTruthFieldsEvaluated": 195,
+    "totalCorrectlyExtractedFields": 194,
+    "overallExtractionAccuracyPct": 99.49,
+    "fieldLevelBreakdown": {
+      "candidateNameAccuracy": "100.0% (15/15)",
+      "emailAddressAccuracy": "100.0% (15/15)",
+      "phoneNumberAccuracy": "100.0% (15/15)",
+      "degreeCredentialAccuracy": "100.0% (15/15)",
+      "graduationYearAccuracy": "100.0% (15/15)",
+      "yearsExperienceAccuracy": "100.0% (15/15)",
+      "technicalSkillsRecall": "99.0% (104/105)"
+    }
+  },
+  "sampleBreakdown": [
+    {
+      "id": "resume_01",
+      "role": "Frontend Engineer",
+      "name": "Alex Chen",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_02",
+      "role": "Backend Engineer",
+      "name": "Sarah Jenkins",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 8,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_03",
+      "role": "DevOps & Cloud SRE",
+      "name": "Marcus Vance",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_04",
+      "role": "Data Scientist / ML Engineer",
+      "name": "Priya Patel",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_05",
+      "role": "Full Stack Engineer",
+      "name": "David Kim",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_06",
+      "role": "Mobile App Developer",
+      "name": "Elena Rostova",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 8,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_07",
+      "role": "Cybersecurity Analyst",
+      "name": "Jordan Taylor",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_08",
+      "role": "Systems & Embedded C++ Engineer",
+      "name": "Nikolai Ivanov",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 12,
+      "accuracyPct": 92.3,
+      "extractedSkills": 8,
+      "targetSkills": 7,
+      "skillsMatched": 6
+    },
+    {
+      "id": "resume_09",
+      "role": "QA Automation Engineer",
+      "name": "Ananya Sharma",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_10",
+      "role": "Database Administrator",
+      "name": "Carlos Mendez",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_11",
+      "role": "Site Reliability Engineer",
+      "name": "Hannah Schmidt",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_12",
+      "role": "AI & NLP Engineer",
+      "name": "Liam O'Connor",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_13",
+      "role": "Web3 & Smart Contract Engineer",
+      "name": "Zack Williams",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_14",
+      "role": "Embedded Firmware Engineer",
+      "name": "Vikram Mehta",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 8,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    },
+    {
+      "id": "resume_15",
+      "role": "Principal Solutions Architect",
+      "name": "Rachel Green",
+      "fieldsEvaluated": 13,
+      "fieldsCorrect": 13,
+      "accuracyPct": 100,
+      "extractedSkills": 7,
+      "targetSkills": 7,
+      "skillsMatched": 7
+    }
+  ]
+}
